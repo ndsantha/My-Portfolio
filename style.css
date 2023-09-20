@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#out {
+    width: auto;
+    min-height: 900px;
+    background: url('images/me.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#menu {
+    width: auto;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul {
+    margin-left: 20%;
+}
+
+#menu ul li {
+    margin-top: 10px;
+    list-style: none;
+    float: left;
+    padding: 0px 5px;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 1s;
+    color: black;
+}
+
+#menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 1s;
+}
+
+#menu ul li a:hover {
+    box-shadow: 0px 1px 5px 2px black;
+    border-radius: 5px;
+    color: white;
+    transition: all 1s;
+}
+
+#name {
+    width: 50%;
+    height: 500px;
+    margin-left: 15%;
+    color: white;
+}
+
+#name h1 {
+    text-align: justify;
+    font-size: 100px;
+    padding-left: 20%;
+    font-family: lobster;
+}
+
+#name h2 {
+    text-align: justify;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-top: 100px;
+    color: rgb(255, 255, 255)
+}
+
+#box {
+    width: 700px;
+    height: 500px;
+    background: rgba(251, 251, 251, .5);
+    border-radius: 10px;
+    ;
+    margin: 0px auto;
+    transform: translateY(250px);
+}
+
+#box p {
+    padding: 60px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+#box a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+#box a:hover {
+    box-shadow: 0px 1px 5px 2px black;
+    color: red;
+    background-color: white;
+    transition: all 1s;
+}
+
+#about {
+    width: auto;
+    min-height: 650px;
+    background: url('images/about.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 35px;
+    padding-top: 300px;
+
+}
+
+#a1 {
+    height: 350px;
+    width: 350px;
+    float: left;
+}
+
+#a2 {
+    height: 350px;
+    width: 900px;
+    float: left;
+    margin-left: 35px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#pic {
+    border-radius: 50%;
+    border-width: 15px;
+    border-color: rgb(5, 255, 5);
+    border-style: double;
+}
+
+.text {
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+#skills {
+    width: auto;
+    height: 500px;
+    background: url('images/skills.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+}
+
+.skills h1 {
+    text-align: center;
+}
+
+.skills {
+    margin-left: 80px;
+    width: 500px;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Gill Sans', 'sans-serif';
+    list-style: none;
+
+}
+
+.skills li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(255, 5, 5, 1), rgba(21, 255, 21, 1));
+}
+
+.html {
+    width: 84%;
+    animation: html 3s;
+}
+
+.css {
+    width: 76%;
+    animation: css 5s;
+}
+
+.javascript {
+    width: 52%;
+    animation: javascript 7s;
+}
+
+.c {
+    width: 70%;
+    animation: c 5s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 84%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 76%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 52%;
+    }
+}
+
+@keyframes c {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+#service {
+    width: auto;
+    height: 450px;
+}
+
+.ser {
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.middle {
+    position: absolute;
+    margin-left: 180px;
+    transform: translate(-50%);
+}
+
+.card {
+    cursor: pointer;
+    width: 350px;
+    height: 350px;
+    transition: 5s all;
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 20px;
+    transition: transform .6s linear;
+    transition: 2s all;
+    box-shadow: 0px 1px 10px 5px black;
+}
+
+.front {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.back {
+    background: red;
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.back-content {
+    color: white;
+    text-align: center;
+}
+
+.card:hover>.front {
+    transform: perspective(600px) rotateY(-180deg);
+    transition: 2s all;
+}
+
+.card:hover>.back {
+    transform: perspective(600px) rotateY(0deg);
+    transition: 2s all;
+}
+
+i {
+    font-size: 200px;
+    padding-top: 65px;
+    padding-left: 50px;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+#contact {
+    background: url('images/contact.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    height: 400px;
+}
+
+.left {
+    width: 60%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.right {
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+
+#cp {
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: 50px;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#ci1,
+#ci2,
+#ci3,
+#ci4,
+#ci5 {
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+#ci1:hover {
+    color: #c74288;
+    transform: rotate(360deg);
+    border: 2px solid #c74288;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+#ci2:hover {
+    color: #1773ea;
+    transform: rotate(360deg);
+    border: 2px solid #1773ea;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+#ci3:hover {
+    color: black;
+    transform: rotate(360deg);
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+#ci4:hover {
+    color: #0077af;
+    transform: rotate(360deg);
+    border: 2px solid #0077af;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+#ci5:hover {
+    color: #36c33a;
+    transform: rotate(360deg);
+    border: 2px solid #36c33a;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 2px solid rgb(255, 134, 134);
+    background: transparent;
+    border-radius: 10px;
+    font-size: 24px;
+    color: white;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 450px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 2px solid rgb(255, 134, 134);
+    background: transparent;
+    border-radius: 10px;
+    resize: none;
+    font-size: 24px;
+    color: white;
+    padding-left: 10px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+textarea::placeholder {
+    padding-top: 10px;
+    border: none;
+}
+
+#btn {
+    width: 150px;
+    color: black;
+    background: wheat;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: blue;
+    color: white;
+    transition: all .5s;
+}
+
+#footer {
+    width: auto;
+    height: 50px;
+    background: rgb(5, 255, 5);
+    border-radius: 0px 0px 50px 50px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    transform: translateY(-20px);
+}
+#skills:hover{
+    @keyframes html {
+        0% {
+            width: 0%;
+        }
+    
+        100% {
+            width: 84%;
+        }
+    }
+    
+    @keyframes css {
+        0% {
+            width: 0%;
+        }
+    
+        100% {
+            width: 76%;
+        }
+    }
+    
+    @keyframes javascript {
+        0% {
+            width: 0%;
+        }
+    
+        100% {
+            width: 52%;
+        }
+    }
+    
+    @keyframes c {
+        0% {
+            width: 0%;
+        }
+    
+        100% {
+            width: 70%;
+        }
+    }
+}
